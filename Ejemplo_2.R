@@ -59,3 +59,7 @@ pop50.mex <-  DataDB %>% filter(CountryCode == "MEX" ,  Population > 50000)   # 
 head(pop50.mex)
 
 unique(DataDB$CountryCode)   # Países que contiene la BDD
+
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
